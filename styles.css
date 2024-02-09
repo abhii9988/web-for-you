@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.highlight {
+  color: #ff4081;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  color: #333;
+}
+
+.options button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #ff6699;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#wrongChoice p {
+  animation: blink 1s infinite;
+}
+
+h1 {
+  color: #ff4081;
+}
+
+p {
+  color: #333;
+}
+
+button {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff6699;
+}
+.message {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto; /* Center the message horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ff4081; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.message p {
+  color: #333; /* Text color */
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #ff4081; /* Close button color */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-btn:hover {
+  color: #ff6699; /* Change color on hover */
+}
+.message2{
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto; /* Center the message horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ff4081; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.message2 p {
+  color: #333; /* Text color */
+  font-size: 1.2rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #ff4081; /* Close button color */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-btn:hover {
+  color: #ff6699; /* Change color on hover */
+}
+.wrong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+}
+
+.wrong p {
+  font-size: 3rem;
+  color: #f3630a; /* Vibrant color */
+  font-weight: bold;
+  animation: blink 1s infinite; /* Blink animation */
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+
